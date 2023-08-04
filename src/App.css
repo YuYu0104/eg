@@ -36,3 +36,287 @@
     transform: rotate(360deg);
   }
 }
+#navbar {
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+  color: "white";
+}
+#headerImg img {
+  width: 300px;
+  height: 300px;
+}
+#headerContainer {
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+  overflow: hidden;
+}
+.container {
+  display: flex; /* Display the child divs in a row */
+  align-items: center; /* Center the content vertically */
+}
+
+.text {
+  flex: 1; /* Take up the remaining space */
+}
+
+#headerContainer h2 {
+  color: greenyellow;
+}
+#headerContainer p {
+  color: white;
+}
+#header-text p {
+  padding-left: 200px;
+  margin-top: 20px;
+}
+.wave {
+  background-color: white;
+}
+#serviceContainer img {
+  width: 250px;
+  height: 250px;
+}
+#serviceContainer {
+  overflow: hidden;
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+  color: white;
+}
+#serviceContainer h2 {
+  color: greenyellow;
+  text-align: center;
+}
+#secondImg img {
+  width: 300px;
+  height: 300px;
+}
+#first {
+  border-bottom-color: #9519b9;
+}
+#serviceContainer p {
+  text-align: center;
+}
+.servicebox {
+  justify-content: space-around;
+}
+#downloadContainer {
+  overflow: hidden;
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+}
+#downloadContainer h2 {
+  color: greenyellow;
+  text-align: center;
+}
+#downloadContainer button {
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: pink;
+}
+#downImage {
+  padding-left: 250px;
+}
+#downloadContainer p {
+  color: white;
+  margin-right: 300px;
+}
+
+#productContainer {
+  overflow: hidden;
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+}
+#productContainer i {
+  margin-right: 5px;
+  width: 20px;
+  size: 15px;
+}
+#productContainer h2 {
+  margin-top: -30px;
+  color: greenyellow;
+  text-align: center;
+}
+.Contcontainer {
+  display: flex;
+}
+
+.Contbox {
+  flex: 1;
+
+  /* Add additional styling for the box */
+}
+.detail {
+  padding-top: 40px;
+}
+.my-input {
+  color: white;
+}
+.pho {
+  text-align: center;
+}
+.productbox {
+  justify-content: space-around;
+}
+
+#amount {
+  margin-left: 90px;
+}
+#money {
+  margin-left: 40px;
+}
+#amount span {
+  background-color: #282c34;
+  color: white;
+  border-radius: 5px;
+
+  padding: 2px 5px;
+}
+.productSecondPart {
+  color: white;
+}
+#contactContainer {
+  overflow: hidden;
+  background-image: linear-gradient(#ad6bc2, #9519b9);
+}
+#contactContainer h2 {
+  color: greenyellow;
+  text-align: center;
+  margin-top: -30px;
+}
+
+#contectImg {
+  padding-left: 250px;
+}
+#contactContainer p {
+  color: white;
+  margin-right: 300px;
+}
+.app button {
+  margin-bottom: 5px;
+}
+
+#cardContainer img {
+  width: 300px;
+  height: 300px;
+}
+#cardContainer {
+  justify-content: space-between;
+  overflow: hidden;
+}
+.content-wrapper {
+  overflow: hidden;
+}
+.addproduct {
+  overflow: hidden;
+}
+.Procontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  color: white;
+}
+.productlist i {
+  padding-right: 10px;
+}
+.Procontainer h4 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.box {
+  margin: 5px; /* Adjust the margin as needed */
+  position: relative;
+
+  /* Add background color or other styles */
+}
+.box p {
+  padding-left: 8px;
+}
+.box button {
+  text-align: center;
+  margin-top: 50px;
+}
+.productPrice {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.productPrice p {
+  margin-right: 20px;
+  font-size: 15px;
+}
+.productPrice p span {
+  padding-left: 5px;
+}
+.productPrice p i {
+  margin-right: auto;
+}
+.box img {
+  text-align: center;
+  align-items: center;
+}
+.image-wrapper {
+  text-align: center;
+  /* Adjust the padding as needed */
+}
+.image-wrapper img {
+  height: 225px;
+  width: 198px;
+  /* Adjust the padding as needed */
+}
+.loginContainer {
+  max-width: 500px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column; /* Change to a column layout */
+  }
+  #headerContainer h2 {
+    font-size: 20px;
+  }
+  .Procontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 930px) {
+  #headerContainer h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1000px) {
+  #amount {
+    margin-left: 30px;
+  }
+  #money {
+    margin-left: 30px;
+  }
+
+  .image-wrapper {
+    text-align: center;
+    /* Adjust the padding as needed */
+  }
+}
+@media (max-width: 550px) {
+  #headerContainer p {
+    padding-top: 10px;
+  }
+  .Procontainer {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin: 0 auto;
+  }
+  .Contcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .box .image-wrapper {
+    text-align: center;
+    /* Adjust the padding as needed */
+  }
+  #headerContainer h2 {
+    font-size: 17px;
+  }
+}
